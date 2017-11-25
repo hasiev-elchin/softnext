@@ -1,0 +1,26 @@
+.clients {
+  padding-top: 80px;
+  padding-bottom: 90px;
+
+  background: url("../img/clients-bg.jpg") no-repeat center/cover;
+
+  &__title {
+
+    &::after {
+      background-color: #fff;
+    }
+  }
+
+  &__descr {
+    margin: 0;
+    margin-bottom: 40px;
+
+    text-align: center;
+    font-size: 1em;
+    line-height: 27px;
+  }
+
+  &__slider {
+    @include list-reset();
+  }
+}

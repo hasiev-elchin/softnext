@@ -1,0 +1,112 @@
+.start {
+  min-height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 48px;
+
+  color: #555555;
+
+  &__title {
+    padding: 0;
+    padding-bottom: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+  }
+
+  &__descr {
+    margin: 0;
+    margin-bottom: 45px;
+
+    font-size: 1em;
+  }
+
+  &__item {
+    padding: 34px;
+    margin-bottom: 32px;
+
+    text-align: center;
+
+    border: 1px solid #ececec;
+    @include border-radius(3px);
+
+    &-title {
+      position: relative;
+
+      display: block;
+      padding-top: 90px;
+      margin-bottom: 10px;
+
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 1.2em;
+
+      color: #343434;
+
+      &::before {
+        content: '';
+
+        position: absolute;
+        top: 0;
+        left: 50%;
+
+        width: 75px;
+        height: 75px;
+        margin-left: -37.5px;
+
+        background-repeat: no-repeat;
+        background-position: top center;
+      }
+    }
+    
+    &--requirements {
+
+      .start__item-title {
+        &::before {
+
+          background-image: url("../img/icons/start-icon__1.png");
+        }
+      }
+    }
+
+    &--selection {
+
+      .start__item-title {
+        &::before {
+
+          background-image: url("../img/icons/start-icon__2.png");
+        }
+      }
+    }
+
+    &--setup {
+
+      .start__item-title {
+        &::before {
+
+          background-image: url("../img/icons/start-icon__3.png");
+        }
+      }
+    }
+
+    &--launch {
+
+      .start__item-title {
+        &::before {
+
+          background-image: url("../img/icons/start-icon__4.png");
+        }
+      }
+    }
+
+    &-descr {
+      margin: 0;
+
+      font-size: .9em;
+      line-height: 24px;
+    }
+  }
+}

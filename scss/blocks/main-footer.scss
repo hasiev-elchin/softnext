@@ -1,0 +1,64 @@
+.main-footer {
+  padding-top: 54px;
+
+  background: url("../img/footer-bg.jpg") no-repeat center/cover;
+
+  &__logo {
+    display: block;
+    width: 131px;
+    height: 70px;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    ul {
+      @include list-reset();
+      margin-bottom: 55px;
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      b {
+        display: block;
+
+        font-weight: bold;
+        font-size: .9em;
+        line-height: 18px;
+        color: $blue-color;
+      }
+
+      a {
+        display: block;
+
+        color: #fff;
+      }
+    }
+  }
+  
+  @media #{$tablet-widths} {
+    &__logo {
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+
+    &__nav {
+      justify-content: space-around;
+    }
+  }
+  
+  @media #{$mobile-widths-only} {
+    &__logo {
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+
+    &__nav {
+      display: none;
+    }
+  }
+}
+

@@ -1,0 +1,131 @@
+.social {
+
+  span {
+    display: block;
+    margin-bottom: 15px;
+
+    font-weight: bold;
+    font-size: .9em;
+    line-height: 18px;
+    color: $blue-color;
+  }
+
+  &__list {
+    @include list-reset();
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 0;
+
+    a {
+      display: block;
+      width: 31px;
+      height: 31px;
+
+      border: 1px solid #fff;
+
+      background-repeat: no-repeat;
+      background-position: center;
+      @include border-radius(3px);
+      transition: .3s;
+
+      &:hover {
+        @include border-radius(50%);
+        transform: rotate(360deg);
+      }
+    }
+
+    li:nth-child(1) {
+
+      a {
+        background-image: url("../img/icons/twitter.png");
+      }
+    }
+
+    li:nth-child(2) {
+
+      a {
+        background-image: url("../img/icons/facebook.png");
+      }
+    }
+
+    li:nth-child(3) {
+
+      a {
+        background-image: url("../img/icons/linkedin.png");
+      }
+    }
+
+    li:nth-child(4) {
+
+      a {
+        background-image: url("../img/icons/google.png");
+      }
+    }
+
+    li:nth-child(5) {
+
+      a {
+        background-image: url("../img/icons/youtube.png");
+      }
+    }
+
+    li:nth-child(6) {
+
+      a {
+        background-image: url("../img/icons/instagram.png");
+      }
+    }
+  }
+
+  @media #{$laptop-widths} {
+    &__list {
+      justify-content: center;
+
+      li {
+        margin-right: 10px !important;
+      }
+    }
+  }
+
+  @media #{$tablet-widths} {
+    margin-bottom: 40px;
+
+    span {
+      text-align: center;
+    }
+
+    &__list {
+      justify-content: center;
+
+      li {
+        margin-right: 20px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  
+  @media #{$mobile-widths-only} {
+    margin-bottom: 30px;
+
+    span {
+      text-align: center;
+    }
+
+    &__list {
+      justify-content: center;
+
+      li {
+        margin-right: 10px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
