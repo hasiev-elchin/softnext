@@ -27,6 +27,27 @@ body {
 .btn:active, .btn:focus {
   outline: none !important; }
 
+@media only screen and (max-width: 768px) {
+  /*Disable Animation on Mobile Devices*/
+  .foo {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important; } }
 .slick-dots {
   bottom: -50px; }
   .slick-dots li {
@@ -65,8 +86,8 @@ body {
 
 .main-header {
   position: relative;
-  min-height: 100vh;
   padding-top: 55px;
+  padding-bottom: 200px;
   background: url("../img/header-bg.jpg") no-repeat center/cover; }
   .main-header__title {
     margin: 0;
@@ -327,6 +348,8 @@ body {
       border: 1px solid #dddddd; }
       .questions__form input[name="email"] {
         margin-right: 0; }
+      .questions__form input::placeholder {
+        font-size: 14px; }
     .questions__form textarea {
       width: 100%;
       height: 75px;
@@ -363,12 +386,13 @@ body {
       .main-footer__nav ul b {
         display: block;
         font-weight: bold;
-        font-size: .9em;
+        font-size: 16px;
         line-height: 18px;
         color: #0bbfb9; }
       .main-footer__nav ul a {
         display: block;
-        color: #fff; }
+        color: #fff;
+        font-size: 14px; }
   @media (min-width: 768px) {
     .main-footer__logo {
       margin: 0 auto;

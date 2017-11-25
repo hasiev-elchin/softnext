@@ -36,6 +36,10 @@
       &[name="email"] {
         margin-right: 0;
       }
+
+      &::placeholder {
+        font-size: 14px;
+      }
     }
 
     textarea {
