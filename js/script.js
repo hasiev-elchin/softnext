@@ -79,5 +79,18 @@ $(function ($) {
 		sr.reveal('.foo-5', {
 			duration: 1900
 		});
+
+
+		$(window).resize(function() {
+			if ($(window).width() <= '995'){
+				$('#shelf').show(10)
+				return this;}
+			else   {
+				$('#shelf').hide(10)
+			}
+
+		});
+
+
 	})
 })(jQuery);

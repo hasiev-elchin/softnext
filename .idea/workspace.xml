@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5f0c30-7ec5-4e57-bda1-1ba660ea4fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/.sass-cache/309faf6bec0ac63e9b9f648f9425158cf38df896/copyright.scssc" afterPath="$PROJECT_DIR$/scss/.sass-cache/309faf6bec0ac63e9b9f648f9425158cf38df896/copyright.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/.sass-cache/309faf6bec0ac63e9b9f648f9425158cf38df896/main-footer.scssc" afterPath="$PROJECT_DIR$/scss/.sass-cache/309faf6bec0ac63e9b9f648f9425158cf38df896/main-footer.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/.sass-cache/309faf6bec0ac63e9b9f648f9425158cf38df896/main-header.scssc" afterPath="$PROJECT_DIR$/scss/.sass-cache/309faf6bec0ac63e9b9f648f9425158cf38df896/main-header.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/.sass-cache/309faf6bec0ac63e9b9f648f9425158cf38df896/questions.scssc" afterPath="$PROJECT_DIR$/scss/.sass-cache/309faf6bec0ac63e9b9f648f9425158cf38df896/questions.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/.sass-cache/bf3ea44734d34d9b7a556bc516319d370bbc5f12/scaffoldings.scssc" afterPath="$PROJECT_DIR$/scss/.sass-cache/bf3ea44734d34d9b7a556bc516319d370bbc5f12/scaffoldings.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/blocks/copyright.scss" afterPath="$PROJECT_DIR$/scss/blocks/copyright.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/blocks/main-footer.scss" afterPath="$PROJECT_DIR$/scss/blocks/main-footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/blocks/main-header.scss" afterPath="$PROJECT_DIR$/scss/blocks/main-header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/blocks/questions.scss" afterPath="$PROJECT_DIR$/scss/blocks/questions.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/scaffoldings.scss" afterPath="$PROJECT_DIR$/scss/scaffoldings.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +31,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2532">
-                  <caret line="357" column="48" lean-forward="true" selection-start-line="357" selection-start-column="48" selection-end-line="357" selection-end-column="48" />
+                <state relative-caret-position="-128">
+                  <caret line="315" column="21" lean-forward="false" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
                   <folding>
                     <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -80,18 +77,38 @@
           <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="761">
-                  <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+                <state relative-caret-position="601">
+                  <caret line="85" column="6" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main-footer.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main-footer.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/blocks/main-footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="620">
-                  <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+                <state relative-caret-position="880">
+                  <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="copyright.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/blocks/copyright.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="questions.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/blocks/questions.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="572">
+                  <caret line="56" column="7" lean-forward="false" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -132,16 +149,16 @@
         <option value="$PROJECT_DIR$/scss/style.scss" />
         <option value="$PROJECT_DIR$/scss/variables.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/main-nav.scss" />
-        <option value="$PROJECT_DIR$/scss/blocks/copyright.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/social.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/start.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/needs.scss" />
         <option value="$PROJECT_DIR$/scss/blocks/main-header.scss" />
         <option value="$PROJECT_DIR$/scss/scaffoldings.scss" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/blocks/questions.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/blocks/main-footer.scss" />
+        <option value="$PROJECT_DIR$/scss/blocks/copyright.scss" />
       </list>
     </option>
   </component>
@@ -342,12 +359,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511547217259</updated>
-      <workItem from="1511547227362" duration="31606000" />
+      <workItem from="1511547227362" duration="32140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31606000" />
+    <option name="totallyTimeSpent" value="32140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -454,14 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/blocks/copyright.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/start.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -509,24 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2532">
-          <caret line="357" column="48" lean-forward="true" selection-start-line="357" selection-start-column="48" selection-end-line="357" selection-end-column="48" />
-          <folding>
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/main-header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -535,18 +526,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="85" column="6" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/questions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="572">
+          <caret line="56" column="7" lean-forward="false" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="315" column="21" lean-forward="false" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+          <folding>
+            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/blocks/main-footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="880">
+          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/copyright.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
       </provider>
