@@ -2,6 +2,10 @@
   background-color: transparent;
   border: none;
 
+  &--inner {
+    border-bottom: 1px solid #66597e;
+  }
+
   &__logo {
     display: block;
     width: 131px;
@@ -20,7 +24,7 @@
       }
 
       a[href] {
-        position: relative;
+        position: re lative;
 
         display: block;
         padding: 10px;

@@ -86,8 +86,8 @@ body {
 
 .main-header {
   position: relative;
+  min-height: 100vh;
   padding-top: 55px;
-  padding-bottom: 200px;
   background: url("../img/header-bg.jpg") no-repeat center/cover; }
   .main-header__title {
     margin: 0;
@@ -140,6 +140,8 @@ body {
 .main-nav {
   background-color: transparent;
   border: none; }
+  .main-nav--inner {
+    border-bottom: 1px solid #66597e; }
   .main-nav__logo {
     display: block;
     width: 131px;
@@ -152,7 +154,7 @@ body {
       .main-nav__list li:last-child {
         margin-right: 0; }
       .main-nav__list li a[href] {
-        position: relative;
+        position: re lative;
         display: block;
         padding: 10px;
         text-transform: uppercase;
